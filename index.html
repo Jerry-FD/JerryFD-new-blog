@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+
+
+
+
+
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 3.9.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.4.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.4.0">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.4.0">
+  <link rel="mask-icon" href="/images/logo.svg?v=7.4.0" color="#222">
+
+<link rel="stylesheet" href="/css/main.css?v=7.4.0">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.7.0">
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    version: '7.4.0',
+    exturl: false,
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
+    copycode: {"enable":false,"show_result":false,"style":null},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    bookmark: {"enable":false,"color":"#222","save":"auto"},
+    fancybox: false,
+    mediumzoom: false,
+    lazyload: false,
+    pangu: false,
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: '',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    translation: {
+      copy_button: '复制',
+      copy_success: '复制成功',
+      copy_failure: '复制失败'
+    },
+    sidebarPadding: 40
+  };
+</script>
+
+  <meta property="og:type" content="website">
+<meta property="og:title" content="JerryFD">
+<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:site_name" content="JerryFD">
+<meta property="og:locale" content="zh-CN">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="JerryFD">
+  <link rel="canonical" href="http://yoursite.com/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: true,
+    isPost: false,
+    isPage: false,
+    isArchive: false
+  };
+</script>
+
+  <title>JerryFD</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">JerryFD</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+      
+      
+      
+        
+        <li class="menu-item menu-item-home">
+      
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-archives">
+      
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
+
+  </li>
+  </ul>
+
+    
+
+</nav>
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <div id="posts" class="posts-expand">
+        <article itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block home">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/09/12/高清方案/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="JerryFD">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="JerryFD">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+            
+            <a href="/2019/09/12/高清方案/" class="post-title-link" itemprop="url">高清方案</a>
+          
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              
+                
+              
+
+              <time title="创建时间：2019-09-12 13:56:17 / 修改时间：14:24:30" itemprop="dateCreated datePublished" datetime="2019-09-12T13:56:17+08:00">2019-09-12</time>
+            </span>
+          
+            
+
+            
+          
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h3 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h3><p>viewport -&gt; 视口<br>layoutviewport  -&gt; 布局视口<br>visualviewport -&gt; 虚拟视口<br>物理像素 -&gt; 屏幕的真实像素<br>设备独立像素 -&gt; 操作系统 (广义) 中可以操作控制的像素<br>设备像素比 -&gt; 物理像素/设备独立像素<br>ppi -&gt; 每英寸多少个像素 -&gt;  决定物理像素的单位实际大小<br>rem -&gt; 尺寸单位，根据 html 根节点的 font-size 决定</p>
+<blockquote>
+<p>假设设备像素比大于 1 ， css 中定义的的 1 个像素，就会有多个物理像素来真实渲染在屏幕上。</p>
+</blockquote>
+<h3 id="高清方案实现原理"><a href="#高清方案实现原理" class="headerlink" title="高清方案实现原理"></a>高清方案实现原理</h3><ul>
+<li>Html 引入 js 脚本 -&gt; 根据设备的型号、物理像素比 (dpr) 和屏幕尺寸，动态改写 meta 标签，设置缩放比例，给 html 标签添加 2 个属性，处理后的 dpr 和 font-size ，用于在 css 中描述尺寸时所用的单位。</li>
+</ul>
+<blockquote>
+<p>对 dpr 处理具体内容是 IOS 中对 dpr 设置最大值 3，安卓统一为 1</p>
+</blockquote>
+<ul>
+<li>通过 css 处理器 postcss 来改变项目写的样式</li>
+<li>webpack 结合 postcss 以及 postcss 的插件 postcss-px2rem 来把 css 中写的 px 无痛转换为 rem</li>
+</ul>
+<p>参考文档:</p>
+<ul>
+<li><a href="https://github.com/amfe/article/issues/17" target="_blank" rel="noopener">使用Flexible实现手淘H5页面的终端适配 · Issue #17 · amfe/article · GitHub</a></li>
+</ul>
+
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+          <div class="post-eof"></div>
+        
+      </footer>
+  </div>
+  
+  
+  
+  </article>
+
+    
+        <article itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block home">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/06/22/前端导出 excel-csv 文件/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="JerryFD">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="JerryFD">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+            
+            <a href="/2016/06/22/前端导出 excel-csv 文件/" class="post-title-link" itemprop="url">前端导出 excel/csv 文件</a>
+          
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              
+                
+              
+
+              <time title="创建时间：2016-06-22 14:49:19" itemprop="dateCreated datePublished" datetime="2016-06-22T14:49:19+08:00">2016-06-22</time>
+            </span>
+          
+            
+
+            
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2019-09-12 14:50:15" itemprop="dateModified" datetime="2019-09-12T14:50:15+08:00">2019-09-12</time>
+              </span>
+            
+          
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="前端导出excel-csv文件"><a href="#前端导出excel-csv文件" class="headerlink" title="前端导出excel/csv文件"></a>前端导出excel/csv文件</h2><h3 id="安装所需js"><a href="#安装所需js" class="headerlink" title="安装所需js"></a>安装所需js</h3><p><a href="https://github.com/eligrey/FileSaver.js/" target="_blank" rel="noopener">fileSaver</a><br><a href="https://github.com/eligrey/Blob.js" target="_blank" rel="noopener">Blob</a></p>
+<p>安装基于npm,先确认安装了nodeJS。进入项目目录，在根目录下打开终端执行行以下代码</p>
+<p><code>npm install file-saver --save</code></p>
+<p><code>bower install file-saver</code></p>
+<p>安装完成后可以看到在node_modules文件里新增的文件夹file-saver和filesaver 其中 filesaver文件夹为filesaver.js源码</p>
+<h3 id="引用fileSaver"><a href="#引用fileSaver" class="headerlink" title="引用fileSaver"></a>引用fileSaver</h3><p>在需要下载导出页面对应的JS文件处引入filesaver文件</p>
+<p><code>import FileSaver from &#39;file-saver&#39;;</code></p>
+<p><code>const {saveAs} = FileSaver;</code></p>
+<h3 id="新建Blob对象"><a href="#新建Blob对象" class="headerlink" title="新建Blob对象"></a>新建Blob对象</h3><blockquote>
+<p>BLOB (binary large object)，二进制大对象，是一个可以存储二进制文件的容器。(来自百度百科)</p>
+</blockquote>
+<p><code>var Blob = new Blob([&quot;JSON&quot;],{type:&#39;&#39;})</code></p>
+<h5 id="blob的结构"><a href="#blob的结构" class="headerlink" title="blob的结构"></a>blob的结构</h5><ul>
+<li>Blob(blobParts[, options])</li>
+</ul>
+<h5 id="更多Blob-资料"><a href="#更多Blob-资料" class="headerlink" title="更多Blob 资料"></a>更多<a href="https://developer.mozilla.org/en-US/docs/Web/API/Blob" target="_blank" rel="noopener">Blob</a> 资料</h5><h3 id="引用saveAs"><a href="#引用saveAs" class="headerlink" title="引用saveAs"></a>引用saveAs</h3><p><code>saveAs(Blob,filename,boolean)</code></p>
+<p>第三个参数boolean如果传true filesaver.js就不会对你的文件自动设置类型</p>
+<blockquote>
+<p>new Blob有浏览器兼容问题，如需考虑浏览器兼容问题，需要引入<a href="https://github.com/eligrey/Blob.js" target="_blank" rel="noopener">Blob.js</a></p>
+</blockquote>
+<h3 id="demo"><a href="#demo" class="headerlink" title="demo"></a>demo</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">Clickhandle</span> (<span class="params"></span>)</span>&#123;</span><br><span class="line"><span class="keyword">var</span> blob = <span class="keyword">new</span> Blob</span><br><span class="line">(</span><br><span class="line">[<span class="string">"Hello, world!"</span>],</span><br><span class="line">&#123;<span class="attr">type</span>: <span class="string">"text/plain;charset=utf-8"</span>&#125;</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line">saveAs(blob, <span class="string">"hello world.txt"</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>注意下载导出功能只能写在事情回调函数里，如某个button的onClick事件中</p>
+</blockquote>
+<h3 id="导出文件类型"><a href="#导出文件类型" class="headerlink" title="导出文件类型"></a>导出文件类型</h3><ul>
+<li>csv</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> exportContent = <span class="string">"\uFEFF"</span>;</span><br><span class="line"><span class="keyword">var</span> blob = <span class="keyword">new</span> Blob([exportContent+data(<span class="string">""</span>)],</span><br><span class="line">&#123;<span class="attr">type</span>: <span class="string">"text/plain;charset=utf-8"</span>&#125;</span><br><span class="line">);</span><br><span class="line">saveAs(blob, downloadName + <span class="string">".csv"</span>);</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>excel</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> exportContent = <span class="string">"\uFEFF"</span>;</span><br><span class="line"><span class="keyword">var</span> blob = <span class="keyword">new</span> Blob([exportContent+data(<span class="string">""</span>)], &#123;</span><br><span class="line">type: <span class="string">"application/vnd.ms-excel;charset=charset=utf-8"</span></span><br><span class="line">&#125;);</span><br><span class="line">saveAs(blob, downloadName + <span class="string">".xls"</span>);</span><br></pre></td></tr></table></figure>
+
+<p>其中加入exportContent = “\uFEFF”;可以防止中文乱码</p>
+
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+          <div class="post-eof"></div>
+        
+      </footer>
+  </div>
+  
+  
+  
+  </article>
+
+    
+        <article itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block home">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/06/08/关于 cookie 的学习笔记/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="JerryFD">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="JerryFD">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+            
+            <a href="/2016/06/08/关于 cookie 的学习笔记/" class="post-title-link" itemprop="url">关于 cookie 的学习笔记</a>
+          
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              
+                
+              
+
+              <time title="创建时间：2016-06-08 14:46:26" itemprop="dateCreated datePublished" datetime="2016-06-08T14:46:26+08:00">2016-06-08</time>
+            </span>
+          
+            
+
+            
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2019-09-12 14:51:38" itemprop="dateModified" datetime="2019-09-12T14:51:38+08:00">2019-09-12</time>
+              </span>
+            
+          
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="关于cookie的学习笔记"><a href="#关于cookie的学习笔记" class="headerlink" title="关于cookie的学习笔记"></a>关于cookie的学习笔记</h2><h3 id="cookie"><a href="#cookie" class="headerlink" title="cookie"></a>cookie</h3><ul>
+<li>cookie的定义</li>
+</ul>
+<blockquote>
+<p>cookie是前端开发中的一个重要概念。cookie翻译为“甜饼干”,由W3C提出被各大浏览器支持的一种解决HTTP请求无状态的方案。<br>http的无状态是指客服端和服务端的数据交换完毕，连接一旦中断，再次建立连接时又是一个全新的连接，之前的连接的数据会被彻底“遗忘”，这就使服务端无法弄明白这次的连接是由谁发起的。</p>
+</blockquote>
+<ul>
+<li>cookie的使用场景</li>
+</ul>
+<p>当用户浏览网站需要对用户身份进行判断，来进行不同响应时，可以利用cookie。第一次发送请求判断校验了用户身份后，把用户身份存放在cookie中，当下次发送请求时服务端就可从cookie中获取之前存放在cookie中信息，而不用再次经过复杂校验。<br>或是用来保存一些用户在网页上自定义的一些设置，在页面跳转、页面关闭后依然能够记录这些信息。针对不同用户的不同操作做出相应的响应、</p>
+<ul>
+<li>cookie的前端封装代码</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> cookie = &#123;</span><br><span class="line"><span class="keyword">set</span>:function(key,val,time)&#123;<span class="comment">//设置cookie方法</span></span><br><span class="line"><span class="keyword">var</span> date = <span class="keyword">new</span> <span class="built_in">Date</span>(); <span class="comment">//获取当前时间</span></span><br><span class="line">date.setDate(date.getTime() + time)<span class="comment">//设置cookie过期时间</span></span><br><span class="line"><span class="built_in">document</span>.cookie = key + <span class="string">"="</span> + val +</span><br><span class="line">((time==<span class="literal">null</span>) ? <span class="string">''</span> : <span class="string">';expires='</span>+date.toGMTString())</span><br><span class="line">&#125;,</span><br><span class="line"><span class="keyword">get</span>:function(key)&#123;<span class="comment">//获取cookie方法</span></span><br><span class="line"><span class="comment">/*获取cookie参数*/</span></span><br><span class="line"><span class="comment">//删除cookie中的所有空格;</span></span><br><span class="line"><span class="keyword">var</span> pureCookie = <span class="built_in">document</span>.cookie.replace(<span class="regexp">/\s+/g</span>,<span class="string">""</span>);</span><br><span class="line"><span class="comment">//以分号分割cookie存放在arrCookie中</span></span><br><span class="line"><span class="keyword">var</span> arrCookie = pureCookie.split(<span class="string">";"</span>);</span><br><span class="line"><span class="comment">//声明要输出的值</span></span><br><span class="line"><span class="keyword">var</span> resultVal;</span><br><span class="line"></span><br><span class="line"><span class="comment">//遍历arrCookie找出与输入相同的键值对，输出相应值</span></span><br><span class="line">arrCookie.map(<span class="function">(<span class="params">item,index</span>) =&gt;</span> &#123;</span><br><span class="line"><span class="keyword">var</span> result = item.split(<span class="string">"="</span>);</span><br><span class="line"><span class="keyword">if</span>(key == result[<span class="number">0</span>])&#123;</span><br><span class="line">resultVal = result[<span class="number">1</span>];</span><br><span class="line">&#125;</span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line"><span class="keyword">return</span> resultVal;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>代码中封装了一个cookie对象，它包含2个方法set和get。</p>
+<p>set可以设置cookie，其中包含3个参数，cookie的属性名，cookie的值，cookie的过期时间</p>
+<p>get可以取出与输入属性名相同的cookie值</p>
+</blockquote>
+<ul>
+<li><p>cookie的属性</p>
+</li>
+<li><p>max-age(expires):指定cookie的有效期，单位是秒，表示cookie存在的秒数</p>
+</li>
+</ul>
+<ol>
+<li>max-age为负:表示此cookie只在本窗口和子窗口有效</li>
+<li>max-age为0:表示删除此cookie</li>
+</ol>
+<ul>
+<li><p>domain:可以访问该cookie的域名。如果设置为“.google.com”，则所有以“google.com”结尾的域名都可以访问该Cookie。注意第一个字符必须为“.”</p>
+</li>
+<li><p>path:可以访问该cookie的域名。如果设置为“/”，则该域名下的所有路径都可以访问该Cookie。注意最后一个字符必须为“/”</p>
+</li>
+<li><p>cookie存在的问题</p>
+</li>
+<li><p>存储大小只有4kb</p>
+</li>
+<li><p>每次发送http请求时cookie都会一并发送，浪费带宽</p>
+</li>
+<li><p>HTML5的 <a href="http://baidu.com/" target="_blank" rel="noopener">localStorage</a>和sessionStorage有了更好的解决办法</p>
+</li>
+</ul>
+
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+          <div class="post-eof"></div>
+        
+      </footer>
+  </div>
+  
+  
+  
+  </article>
+
+    
+  </div>
+
+  
+
+
+          </div>
+          
+
+        </div>
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">JerryFD</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+  <nav class="site-state motion-element">
+      <div class="site-state-item site-state-posts">
+        
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+    
+  </nav>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">JerryFD</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v3.9.0</div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">主题 – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a> v7.4.0</div>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+  </div>
+
+  
+
+
+  <script src="/lib/anime.min.js?v=3.1.0"></script>
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+<script src="/js/utils.js?v=7.4.0"></script><script src="/js/motion.js?v=7.4.0"></script>
+<script src="/js/schemes/muse.js?v=7.4.0"></script>
+
+<script src="/js/next-boot.js?v=7.4.0"></script>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+</body>
+</html>
